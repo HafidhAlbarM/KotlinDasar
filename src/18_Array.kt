@@ -3,10 +3,13 @@ import java.util.logging.Logger
 fun main(){
 
     //Array
+    //Bersifat fixed, maka membutuhkan Max Size
     println("Pets App")
     println("Enter Number of Pets")
     val maxSize = readLine()!!.toInt()
+
     var listOfPets:Array<String> = Array(maxSize){""}
+
     for(i in 0 until maxSize){
         println("Enter Pet")
         listOfPets[i] = readLine()!!.toString()
@@ -16,4 +19,8 @@ fun main(){
     for(i in 0 until maxSize){
         println("Pet $i: ${listOfPets[i]}")
     }
+
+//    karena array bersifat fixed, maka tidak bisa menambah ke array
+//    var students = arrayOf("dery", "bwambwang", "dono")
+//    println(students.toList());
 }

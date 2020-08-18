@@ -1,12 +1,13 @@
+import java.util.*
+
 fun main(){
 
-    //ArrayList
+    //LinkedList
 
-//    Cara Java
-//    var listOfPets = ArrayList<String>()
+    //LinkedList tidak menambah elemen banyak seperti arrayList,
+    //tetapi dalam pencarian data, LinkedList tidak bagus, karena dia mencari satu persatu
 
-//    Cara Kotlin
-    var listOfPets = arrayListOf<String>()
+    var listOfPets = LinkedList<String>()
 
     println("Pets App")
     do{
@@ -30,10 +31,4 @@ fun main(){
     if(listOfPets.contains("cat")){
         println("We have special offer for your cat")
     }
-
-
-
-//    var data = arrayListOf<String>("Dono","Kasino","Indro")
-//    data.add("Komeng")
-//    println(data.toList())
 }
