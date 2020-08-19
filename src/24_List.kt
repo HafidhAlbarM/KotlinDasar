@@ -1,3 +1,6 @@
+//array hanya menyimpan data dengan tipe yang sama,
+//sedangkan list dapat menyimpan banyak data dengan tipe yang berbeda-beda.
+
 //mutable: bisa update, bisa nambah
 //im-mutable: gabisa update, gabisa nambah
 
@@ -5,7 +8,7 @@ fun main(){
     //list
 
     //im-mutable
-    val listImmutable = listOf("hafidh","albar")
+    val listImmutable = listOf("hafidh","albar",27,1998)
     //gabisa, karena im-mutable
     //listMutable.add("muhammad")
     for(nama in listImmutable){
@@ -13,7 +16,7 @@ fun main(){
     }
 
     //mutable
-    var listMutable = mutableListOf("hafidh","albar")
+    var listMutable = mutableListOf("hafidh","albar",27,1998)
     listMutable.add("muhammad")
     for(nama in listMutable){
         println(nama)

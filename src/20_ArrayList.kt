@@ -1,6 +1,7 @@
 fun main(){
-
-    //ArrayList
+// ArrayList
+// ArrayList (List) bersifat dinamis, dapat menambah itemnya
+// Array hanya menyimpan data dengan tipe yang sama,
 
 //    Cara Java
 //    var listOfPets = ArrayList<String>()
@@ -33,7 +34,11 @@ fun main(){
 
 
 
-//    var data = arrayListOf<String>("Dono","Kasino","Indro")
-//    data.add("Komeng")
-//    println(data.toList())
+    var data = arrayListOf("Dono","Kasino","Indro",2)
+    data.add("Komeng")
+    println(data)
+
+    var dataAngka = arrayListOf(2,4,6,8,"Dono")
+    dataAngka.add(12)
+    println(dataAngka)
 }

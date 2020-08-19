@@ -19,4 +19,8 @@ fun main(){
     for(key in listOfUsers.keys){
        println("$key: ${listOfUsers[key]}")
     }
+
+    var data = hashMapOf<String, String>("BR001" to "Meja", "BR002" to "Kursi", "BR003" to "Lemari")
+    println(data)
+    println(data["BR002"])
 }

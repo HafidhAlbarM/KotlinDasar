@@ -20,7 +20,8 @@ fun main(){
         println("Pet $i: ${listOfPets[i]}")
     }
 
-//    karena array bersifat fixed, maka tidak bisa menambah ke array
-//    var students = arrayOf("dery", "bwambwang", "dono")
-//    println(students.toList());
+    //karena array bersifat fixed, maka tidak bisa menambah ke array
+    var students = arrayOf("dery", "bwambwang", "dono", 25, 26)
+    println(students);
+    println(students.toList());
 }
